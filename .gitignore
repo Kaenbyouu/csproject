@@ -1,0 +1,22 @@
+≈# Ignore compiled binaries
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Ignore build and temporary files
+/Build/
+/Temp/
+/obj/
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+.log
+
+# Ignore the "Build" folder
+Build/
+
+# Ignore the "Temp" folder inside the "Assets" directory
+bulletspin/Library/
