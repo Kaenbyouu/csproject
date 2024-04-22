@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{9EE8F064-484F-89AE-720B-5295D8EAB788}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Astronomic Objects/PlanetSpawner.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="163" Column="6" />
-      <File FileName="Assets/Scripts/Health.cs" Line="31" Column="24" />
-      <File FileName="Assets/Scripts/Boundaries.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player.cs" Line="157" Column="36" />
+      <File FileName="Assets/Scripts/Health.cs" Line="35" Column="6" />
+      <File FileName="Assets/Scripts/Enemy_Hexagon.cs" Line="8" Column="6" />
+      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleGravityZones.cs" Line="23" Column="42" />
+      <File FileName="Assets/Scripts/Astronomic Objects/PlanetSpawner.cs" Line="7" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
