@@ -14,6 +14,8 @@ public class BlackHoleGravityZones : MonoBehaviour
 
     private float oldSpeed;
     private GameObject player;
+    private GameObject enemy;
+    private GameObject bullet;
 
     void Start()
     {
@@ -25,15 +27,35 @@ public class BlackHoleGravityZones : MonoBehaviour
     {
         player.GetComponent<Player>().Speed *= speedFactor;
 
-            if (speedFactor == 0)
+        /*if (other.gameObject.tag == "Enemy")
+        {
+            oldSpeed = other.gameObject.GetComponent<Enemy>().Speed;
+            other.gameObject.GetComponent<Enemy>().Speed *= speedFactor;
+        }
+        if (other.gameObject.tag == "bullet")
+        {
+            oldSpeed = other.gameObject.GetComponent<Bullet>().Speed;
+            other.gameObject.GetComponent<Bullet>().Speed *= speedFactor;
+        }*/
+
+        if (speedFactor == 0)
             {
-             Debug.Log("EventHorizon");
-             StartCoroutine(Timer(player));
+             StartCoroutine(Timer(other.gameObject));
             }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
         player.GetComponent<Player>().Speed = oldSpeed;
+
+        /*if (other.gameObject.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<Enemy>().Speed = oldSpeed;
+        }
+        if (other.gameObject.tag == "bullet")
+        {
+            other.gameObject.GetComponent<Enemy>().Speed = oldSpeed;
+        }*/
+
     }
 
     IEnumerator Timer(GameObject obj)
