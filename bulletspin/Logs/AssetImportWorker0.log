@@ -5920,3 +5920,359 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 396.310809 seconds.
+  path: Assets/Prefabs/BlackHole.prefab
+  artifactKey: Guid(98c00b08fe7364d619cc2b139923f64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlackHole.prefab using Guid(98c00b08fe7364d619cc2b139923f64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4931108c98f70c16a1771242c2a7fa') in 0.073912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 20.320967 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b520c594fa47ffc07913ce9cee00143') in 0.001832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 32.174884 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39213931f98c6d77f52b9152ece6523') in 0.050482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 27.865598 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd1c3177a2a20e76a1b3f79d8fcf698') in 0.001700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 7.270537 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1492ecb28c6dbeb9ce2647868bd41c6') in 0.001856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.198696 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3039cb8e6d1ca12bacda3d3d4390c5') in 0.001346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 26.490695 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a14dabbf23630c12cee6571971edc2') in 0.001668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.230422 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d58d540bcde5609a7a004b77af1285d') in 0.001380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.434189 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c142e45d7953cf43ef9668bd4179bbf3') in 0.001960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.442896 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833190c4ed218d70d68ce16bafbdff68') in 0.001437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 12.311508 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b9bfc887d8d9e7be467a533bc00a4c') in 0.001585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 20.833681 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a11966d341e793dde6b932aa70816be') in 0.033250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 60.137459 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40335d15aa300031f6bfa3d1b4603d41') in 0.001670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 10.772178 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68c68a42b337a93b19116d173a54f6a') in 0.005977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 17.953480 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbca017cd1a184ec30b9906f87ae7ca0') in 0.001453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 36.535800 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2e7fb02ff2d6d6e0e4dfe2658521dc') in 0.001655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.474652 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668b2ec74aea21f2e0cfe240618ca515') in 0.003937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.441270 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248ee2f1dd2ea5e6f7721b9c3e1ae806') in 0.001370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.255653 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd784c7ffec779bb0456bcfac8302035') in 0.001804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.237452 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb5b7a18567f52279404d00172ebb8a') in 0.003248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.039689 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97f1b415c281c60b1ce8f337435f9c7') in 0.001559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.802864 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ce0f6fa6faf4a3624c388f88ccaa98') in 0.001819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 39.347647 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6b147b7a76ed9b546430f7c41ff4ca') in 0.006672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 8.103633 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f847ef4042bfd80b26f19cf4cdb4c8') in 0.001345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.876174 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d805120c32cba5b45369a95d49b161') in 0.001323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 38.627192 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34046be891412f85e46bcb92ec8b00') in 0.003813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 7.264868 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6fe19e618557b88f516911664be58f') in 0.001510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.807128 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2625eda322a12ef01af305caf103d9fb') in 0.001623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.589496 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b563aa5e25ceaa720965821657c6769') in 0.001341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.811144 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4a2fe7e73b1cf47478cf7438de5b1a') in 0.001287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.828717 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092480c5cfdbcd338c7ade218fc2517c') in 0.001432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.077200 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061c8cd5812ce96336eff4894e5bc604') in 0.001303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.010660 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e998e808411e424c1b6e841a51837c') in 0.001570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.607836 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222b16913ea113d6b42ff43f760bbc78') in 0.001261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.411565 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f43b5b59ecf3bf37f30827b40b8df2a') in 0.001572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.852749 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a82664d05392cd63546903cb1f5ed81') in 0.001302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.036364 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d2228c8d310fde98b08c4fce14491b') in 0.001304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.610747 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dee9fd71e03cf0bfec771a5ce3a7c28') in 0.001259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.452094 seconds.
+  path: Assets/Prefabs/HealthBar.prefab
+  artifactKey: Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthBar.prefab using Guid(9290585fdcdbe45d5b017137cb709499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e1652fb9ac483d5c4c0bd0e397921') in 0.001220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2459.216631 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/d_SpriteEditor.png
+  artifactKey: Guid(b7784190913354d4fb9b7f77888f915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/d_SpriteEditor.png using Guid(b7784190913354d4fb9b7f77888f915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cea49d68f2bbfec5f35ba90d2b79d86') in 0.067294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditorOn.png
+  artifactKey: Guid(476369828d55a4032beead7444495b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditorOn.png using Guid(476369828d55a4032beead7444495b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290957b29894d84352a81acf21a4e139') in 0.006757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditor@2x.png
+  artifactKey: Guid(7013f35dfb10340ecbb956ca7e17de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditor@2x.png using Guid(7013f35dfb10340ecbb956ca7e17de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee62287c84906aa2b670da261153b22') in 0.005282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditorOn@2x.png
+  artifactKey: Guid(1fb0e05a5ca5a42ba8ffafe439520b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditorOn@2x.png using Guid(1fb0e05a5ca5a42ba8ffafe439520b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9930fae008d61877b75b8986dee9f04a') in 0.005545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditor.png
+  artifactKey: Guid(9b243bd8491a24b2cbe5231468a93813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditor.png using Guid(9b243bd8491a24b2cbe5231468a93813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2765947369d50c77830909571db8c363') in 0.005612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

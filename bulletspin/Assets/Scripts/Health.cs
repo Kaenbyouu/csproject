@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
     [SerializeField]
-    public int lives;
+    public float lives; //number of lives the player gets
 
-    private int health;
+    private float health;
+
+    public Image Healthbar;
+
 
     void Start()
     {
@@ -18,19 +22,17 @@ public class Health : MonoBehaviour
     {
         health -= 1;
 
-        Debug.Log("update");
-        Debug.Log(health);
+        Healthbar.fillAmount = Mathf.Clamp(health / lives, 0f, 1f);// updating health bar
 
         if (health <= 0)
         {
             Destroy(gameObject);
-            Debug.Log("dead");
-            Debug.Log(health);
         }
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
         updateHealth();
-        Debug.Log("crash");
     }
+
+    
 }
