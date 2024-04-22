@@ -20,3 +20,4 @@ Build/
 
 # Ignore the "Temp" folder inside the "Assets" directory
 bulletspin/Library/
+bulletspin/UserSettings

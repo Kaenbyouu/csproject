@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.047169805, g: 0.04338732, b: 0.04338732, a: 1}
   m_FlipX: 0
@@ -173,7 +173,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.25
 --- !u!114 &4109572742230578006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mass: 1
   speedFactor: 0.2
+  timer: 0
 --- !u!1 &4555317196221940109
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +200,7 @@ GameObject:
   - component: {fileID: 956936231459213173}
   - component: {fileID: 3348295573263912146}
   - component: {fileID: 4112078123498727550}
-  - component: {fileID: 6669782306710037766}
+  - component: {fileID: 4598511324203487667}
   m_Layer: 0
   m_Name: Sprite2
   m_TagString: Untagged
@@ -309,7 +310,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1.2}
   m_Direction: 0
---- !u!114 &6669782306710037766
+--- !u!114 &4598511324203487667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,3 +324,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mass: 1
   speedFactor: 0
+  timer: 2

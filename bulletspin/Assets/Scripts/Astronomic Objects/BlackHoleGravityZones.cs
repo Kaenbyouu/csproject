@@ -6,23 +6,41 @@ public class BlackHoleGravityZones : MonoBehaviour
 {
 
    [SerializeField]
-    private double mass = 1;
+    private float mass = 1;
 
    [SerializeField]
-    private double speedFactor = 0.2;
+   private float speedFactor = 0.2f;
+   public float timer = 10f;
 
-    private double oldSpeed;
+    private float oldSpeed;
+    private GameObject player;
 
-    
-    private void OnTriggerEnter2D(Collision2D other)
+    void Start()
     {
-        Debug.Log($"Enter");
-        //oldSpeed = other.gameObject.speed;
-        //other.gameObject.speed *= speedFactor;
+        player = GameObject.FindGameObjectWithTag("Player");
+        oldSpeed = player.GetComponent<Player>().Speed;
     }
-    private void OnTriggerExit2D(Collision2D other)
+    
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        //other.gameObject.speed = oldSpeed;
-        Debug.Log($"Exit");
+        player.GetComponent<Player>().Speed *= speedFactor;
+
+            if (speedFactor == 0)
+            {
+             Debug.Log("EventHorizon");
+             StartCoroutine(Timer(player));
+            }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        player.GetComponent<Player>().Speed = oldSpeed;
+    }
+
+    IEnumerator Timer(GameObject obj)
+    {
+        Debug.Log("TimerEnter");
+        yield return new WaitForSeconds(timer);
+        Debug.Log("timerEnded");
+        Destroy(obj);
     }
 }
