@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{9EE8F064-484F-89AE-720B-5295D8EAB788}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Astronomic Objects/PlanetSpawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Astronomic Objects/NewGravity.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="157" Column="36" />
-      <File FileName="Assets/Scripts/Health.cs" Line="35" Column="6" />
-      <File FileName="Assets/Scripts/Enemy_Hexagon.cs" Line="8" Column="6" />
-      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleSpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleGravityZones.cs" Line="23" Column="42" />
-      <File FileName="Assets/Scripts/Astronomic Objects/PlanetSpawner.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/Health.cs" Line="25" Column="90" />
+      <File FileName="Assets/Scripts/Enemy_Hexagon.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleSpawner.cs" Line="11" Column="60" />
+      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleGravityZones.cs" Line="40" Column="1" />
+      <File FileName="Assets/Scripts/Astronomic Objects/PlanetSpawner.cs" Line="9" Column="3" />
+      <File FileName="Assets/Scripts/Astronomic Objects/Grav.cs" Line="16" Column="33" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/Astronomic Objects/NewGravity.cs" Line="10" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

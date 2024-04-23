@@ -64,6 +64,7 @@
     <Compile Include="Assets/Scripts/Projectile.cs" />
     <Compile Include="Assets/Scripts/Boundaries.cs" />
     <Compile Include="Assets/Scripts/Astronomic Objects/PlanetSpawner.cs" />
+    <Compile Include="Assets/Scripts/Astronomic Objects/NewGravity.cs" />
     <Compile Include="Assets/Scripts/GameCtrl.cs" />
     <Compile Include="Assets/Scripts/Bullet.cs" />
     <Compile Include="Assets/Scripts/InvaderSpawner.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets/Scripts/Health.cs" />
     <Compile Include="Assets/Scripts/PlayerCtrl.cs" />
     <Compile Include="Assets/Scripts/SimpleAnimator.cs" />
+    <Compile Include="Assets/Scripts/Astronomic Objects/Grav.cs" />
     <Compile Include="Assets/Scripts/SpeedZoneScr.cs" />
     <Compile Include="Assets/Scripts/Enemy_Hexagon.cs" />
     <Compile Include="Assets/Scripts/Astronomic Objects/BlackHoleGravityZones.cs" />

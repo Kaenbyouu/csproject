@@ -6,6 +6,7 @@ public class PlanetSpawner : MonoBehaviour
 {
     [SerializeField]
     public GameObject Planet_prefab;
+  
 
 
     void Start()
@@ -15,6 +16,6 @@ public class PlanetSpawner : MonoBehaviour
 
     void Update()
     {
-
+        
     }
 }

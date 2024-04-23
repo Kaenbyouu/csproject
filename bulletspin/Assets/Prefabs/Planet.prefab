@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8390088430924385286}
   - component: {fileID: 9136437182001136843}
   - component: {fileID: -913592247716790391}
+  - component: {fileID: 8330407184221950352}
+  - component: {fileID: -4692470907984741167}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -119,4 +121,44 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.6
+  m_Radius: 0.45
+--- !u!50 &8330407184221950352
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3126662369590031645}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-4692470907984741167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3126662369590031645}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80be3b38ffba74841977efce79742165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractedObj: {fileID: 2380966071258963563, guid: 37d30517a89baac40b9f6ab9ed3236b2, type: 3}

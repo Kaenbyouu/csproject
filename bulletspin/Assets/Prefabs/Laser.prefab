@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: -2008577910985404419}
   - component: {fileID: -376821988465346511}
   - component: {fileID: 2515812145195343390}
+  - component: {fileID: 1031832824824084998}
   m_Layer: 8
   m_Name: Laser
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,14 +131,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2380966071258963563}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -162,4 +163,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0, z: 0}
-  speed: 85
+  speed: 30
+--- !u!114 &1031832824824084998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380966071258963563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80be3b38ffba74841977efce79742165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractedObj: {fileID: 3126662369590031645, guid: 95c2db0a1e5224cfc96e1cb0d4587643, type: 3}
