@@ -10,6 +10,9 @@ public class Player : MonoBehaviour {
     public Projectile laserPrefab;
 
     [SerializeField]
+    public Itemcollection ic;
+
+    [SerializeField]
     private Collider2D Collider;
 
     [SerializeField]
@@ -31,6 +34,8 @@ public class Player : MonoBehaviour {
 
     private float timer;
     public float timeBetweenFiring;
+
+    private float zerosOnMyBankAcc = 0;
 
     private bool canFire;
 
@@ -154,9 +159,23 @@ public class Player : MonoBehaviour {
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("CollisionEnter");
+
+        if (other.CompareTag("coin"))
+        {
+            zerosOnMyBankAcc += other.gameObject.GetComponent<Properties>().pts;
+            Destroy(other.gameObject);
+        }
+
+        if (other.CompareTag("booster"))
+        {
+            GetComponent<Itemcollection>().React(other.gameObject);
+            zerosOnMyBankAcc += other.gameObject.GetComponent<Properties>().pts;
+
+        }
+
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -168,29 +187,6 @@ public class Player : MonoBehaviour {
     {
         Debug.Log("CollisionExit");
     }
-
-
-
-    //    private void OnCollisionEnter2D(Collision2D other)
-    //    {
-    //        if(other.gameObject.tag == "bullet") // || other.gameObject.tag == "invader"
-    //        {
-    //            GameCtrl.LiveUpdate();
-    //            Debug.Log("HIT");
-    //            Debug.Log(other.gameObject.tag);
-    //        }
-    //        if (other.gameObject.tag == "speedZone")
-    //        {
-
-    //            //speed = velocity;
-    //            Debug.Log("bumpedd into speed zone");
-
-    //        }
-    //        else
-    //        {
-    //            return;
-    //        }
-    //    }
-
+   
 }
 

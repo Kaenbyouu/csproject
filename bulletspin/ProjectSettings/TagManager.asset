@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - bulletPlayer
   - bullet
-  - Enemy
+  - enemy
+  - booster
+  - coin
   layers:
   - Default
   - TransparentFX

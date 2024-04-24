@@ -11,9 +11,4 @@ public class BlackHoleSpawner : MonoBehaviour
         Instantiate(BlackHole_prefab, new Vector3(30, -3, 0), Quaternion.identity);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

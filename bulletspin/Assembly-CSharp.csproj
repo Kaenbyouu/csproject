@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets/Planet_COM.cs" />
     <Compile Include="Assets/Scripts/Projectile.cs" />
+    <Compile Include="Assets/Scripts/Collectibles/Itemcollection.cs" />
     <Compile Include="Assets/Scripts/Astro/PlanetSpawner.cs" />
     <Compile Include="Assets/Scripts/Boundaries.cs" />
     <Compile Include="Assets/Scripts/Astro/BlackHoleSpawner.cs" />
@@ -75,8 +76,10 @@
     <Compile Include="Assets/Scripts/SimpleAnimator.cs" />
     <Compile Include="Assets/Scripts/Astro/FixingGravity.cs" />
     <Compile Include="Assets/Scripts/SpeedZoneScr.cs" />
+    <Compile Include="Assets/Scripts/Collectibles/Stardust Spawner.cs" />
     <Compile Include="Assets/Scripts/Enemy_Hexagon.cs" />
     <Compile Include="Assets/Scripts/Astro/SetCOM_LocalPos.cs" />
+    <Compile Include="Assets/Scripts/Collectibles/Properties.cs" />
     <Compile Include="Assets/Scripts/Astro/BlackHoleGravityZones.cs" />
   </ItemGroup>
   <ItemGroup>

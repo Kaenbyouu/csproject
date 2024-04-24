@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 471893232}
   - component: {fileID: 471893234}
   - component: {fileID: 471893235}
+  - component: {fileID: 471893236}
   m_Layer: 0
   m_Name: Astronomic_obj_Spawn
   m_TagString: Untagged
@@ -334,6 +335,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Planet_prefab: {fileID: 3126662369590031645, guid: 95c2db0a1e5224cfc96e1cb0d4587643, type: 3}
+--- !u!114 &471893236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471893229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5c53653f9e5344f8b5c742023c48fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 2690755527145835892, guid: f269cb6fd28ef49f1a0f2395d928711e, type: 3}
+  prefabBoosterList:
+  - {fileID: 2690755527145835892, guid: c4cf4667da5df4f20a1f6d6a514ec875, type: 3}
+  - {fileID: 2690755527145835892, guid: 63d16a9aef0da4898903e40d2dd838e2, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,6 +832,7 @@ GameObject:
   - component: {fileID: 1802744571}
   - component: {fileID: 1802744568}
   - component: {fileID: 1802744570}
+  - component: {fileID: 1802744572}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -836,6 +854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameCtrl: {fileID: 0}
   laserPrefab: {fileID: 2515812145195343390, guid: 37d30517a89baac40b9f6ab9ed3236b2, type: 3}
+  ic: {fileID: 0}
   Collider: {fileID: 0}
   gun: {fileID: 0}
   gun1: {fileID: 0}
@@ -1006,6 +1025,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 3
   Healthbar: {fileID: 1561219408}
+--- !u!114 &1802744572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802744564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a4e4652f2d14ce9b1dce0d45f2f2b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1836414859
 GameObject:
   m_ObjectHideFlags: 0

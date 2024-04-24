@@ -23,7 +23,7 @@ public class BlackHoleGravityZones : MonoBehaviour
     {
         player.GetComponent<Player>().Speed *= speedFactor;
 
-        /*if (other.gameObject.tag == "Enemy")
+        /*if (other.gameObject.tag == "enemy")
         {
             oldSpeed = other.gameObject.GetComponent<Enemy>().Speed;
             other.gameObject.GetComponent<Enemy>().Speed *= speedFactor;
@@ -43,7 +43,7 @@ public class BlackHoleGravityZones : MonoBehaviour
     {
         player.GetComponent<Player>().Speed = oldSpeed;
 
-        /*if (other.gameObject.tag == "Enemy")
+        /*if (other.gameObject.tag == "enemy")
         {
             other.gameObject.GetComponent<Enemy>().Speed = oldSpeed;
         }

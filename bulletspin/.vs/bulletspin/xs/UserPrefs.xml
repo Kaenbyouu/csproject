@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{9EE8F064-484F-89AE-720B-5295D8EAB788}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Astro/FixingGravity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Astro/BlackHoleGravityZones.cs">
     <Files>
-      <File FileName="Assets/Scripts/Astro/BlackHoleGravityZones.cs" Line="42" Column="14" />
-      <File FileName="Assets/Scripts/Astro/FixingGravity.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player.cs" Line="170" Column="10" />
+      <File FileName="Assets/Scripts/Collectibles/Itemcollection.cs" Line="14" Column="12" />
+      <File FileName="Assets/Scripts/Collectibles/Stardust Spawner.cs" Line="15" Column="29" />
+      <File FileName="Assets/Scripts/Collectibles/Properties.cs" Line="24" Column="13" />
+      <File FileName="Assets/Scripts/Astro/BlackHoleGravityZones.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
