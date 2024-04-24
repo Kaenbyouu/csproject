@@ -1,20 +1,13 @@
 ﻿<Properties StartupConfiguration="{9EE8F064-484F-89AE-720B-5295D8EAB788}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Astronomic Objects/NewGravity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Astro/FixingGravity.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="157" Column="36" />
-      <File FileName="Assets/Scripts/Health.cs" Line="25" Column="90" />
-      <File FileName="Assets/Scripts/Enemy_Hexagon.cs" Line="11" Column="1" />
-      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleSpawner.cs" Line="11" Column="60" />
-      <File FileName="Assets/Scripts/Astronomic Objects/BlackHoleGravityZones.cs" Line="40" Column="1" />
-      <File FileName="Assets/Scripts/Astronomic Objects/PlanetSpawner.cs" Line="9" Column="3" />
-      <File FileName="Assets/Scripts/Astronomic Objects/Grav.cs" Line="16" Column="33" />
-      <File FileName="Assets/Scripts/Projectile.cs" Line="24" Column="1" />
-      <File FileName="Assets/Scripts/Astronomic Objects/NewGravity.cs" Line="10" Column="34" />
+      <File FileName="Assets/Scripts/Astro/BlackHoleGravityZones.cs" Line="42" Column="14" />
+      <File FileName="Assets/Scripts/Astro/FixingGravity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0137e5a9-f4ad-4acd-bf0b-aab1cb67d1c2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c22e3866-92b7-49d4-ba7e-9b4e60440051" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

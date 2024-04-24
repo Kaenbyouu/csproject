@@ -173,7 +173,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2380966071258963563}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80be3b38ffba74841977efce79742165, type: 3}
+  m_Script: {fileID: 11500000, guid: d9d2040443f9b4b55ae4ccaeca286f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attractedObj: {fileID: 3126662369590031645, guid: 95c2db0a1e5224cfc96e1cb0d4587643, type: 3}
+  attractedObj_kind: {fileID: 3126662369590031645, guid: 95c2db0a1e5224cfc96e1cb0d4587643, type: 3}

@@ -38,7 +38,7 @@ public class BlackHoleGravityZones : MonoBehaviour
             other.gameObject.GetComponent<Bullet>().Speed *= speedFactor;
         }*/
 
-        if (speedFactor == 0)
+        if (speedFactor == 0.0f)
             {
              StartCoroutine(Timer(other.gameObject));
             }

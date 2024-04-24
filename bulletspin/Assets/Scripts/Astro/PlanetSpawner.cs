@@ -11,7 +11,8 @@ public class PlanetSpawner : MonoBehaviour
 
     void Start()
     {
-        Instantiate(Planet_prefab, new Vector3(20,-2, 0), Quaternion.identity);
+        Instantiate(Planet_prefab, new Vector3(16,6, 0), Quaternion.identity);
+        //Instantiate(Planet_prefab, new Vector3(-25, -12, 0), Quaternion.identity);
     }
 
     void Update()

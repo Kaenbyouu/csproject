@@ -317,7 +317,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 471893229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c2b5a2695ad145cfb738ded2f8a86b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cf118b21c3bb478ebd1d5f419be1f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BlackHole_prefab: {fileID: 2712382813003865656, guid: 98c00b08fe7364d619cc2b139923f64f, type: 3}
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 471893229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ded7a8a8f39164c889dcaf79d45e5780, type: 3}
+  m_Script: {fileID: 11500000, guid: 52e535fc4201c420ea3d003fcbac0ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Planet_prefab: {fileID: 3126662369590031645, guid: 95c2db0a1e5224cfc96e1cb0d4587643, type: 3}
