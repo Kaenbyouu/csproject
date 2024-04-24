@@ -31,9 +31,9 @@ public class FixingGravity : MonoBehaviour
             //Debug.Log($"COM AT ORIGIN?????{AOrb.centerOfMass}: {attractedObj_Instance.transform.position}");
 
             float r = (AOrb.position - GetComponent<Rigidbody2D>().position ).magnitude;
-            float resF = -G * (mass) / Mathf.Pow(r, 2);
+            float resF = G * (mass) / Mathf.Pow(r, 2);
 
-            Vector3 Fg = transform.position + ((transform.position).normalized) * resF;
+            Vector3 Fg = ((AOrb.position - GetComponent<Rigidbody2D>().position).normalized) * resF;
 
             GetComponent<Rigidbody2D>().AddForce(Fg);
             
