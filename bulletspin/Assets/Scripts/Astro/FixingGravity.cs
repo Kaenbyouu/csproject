@@ -49,7 +49,7 @@ public class FixingGravity : MonoBehaviour
         foreach (GameObject obj in allObjects)
         {
 
-            if (obj != null && obj.name.Substring(0, attractedObj_kind.name.Length) == attractedObj_kind.name)
+            if (obj != null && obj.name.Length >= attractedObj_kind.name.Length && obj.name.Substring(0, attractedObj_kind.name.Length) == attractedObj_kind.name)
             {
                 prefabClones.Add(obj);
             }

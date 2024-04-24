@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -376821988465346511}
   - component: {fileID: 2515812145195343390}
   - component: {fileID: 1031832824824084998}
+  - component: {fileID: -7354524116264464483}
   m_Layer: 8
   m_Name: Laser
   m_TagString: bullet
@@ -177,3 +178,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attractedObj_kind: {fileID: 3126662369590031645, guid: 95c2db0a1e5224cfc96e1cb0d4587643, type: 3}
+--- !u!114 &-7354524116264464483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380966071258963563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d2040443f9b4b55ae4ccaeca286f2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractedObj_kind: {fileID: 2712382813003865656, guid: 98c00b08fe7364d619cc2b139923f64f, type: 3}

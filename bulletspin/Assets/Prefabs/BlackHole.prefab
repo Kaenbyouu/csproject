@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -2470422037491518660}
   - component: {fileID: 954174017478039585}
   - component: {fileID: 4109572742230578006}
+  - component: {fileID: 7630742111939175948}
   m_Layer: 0
   m_Name: BlackHole
   m_TagString: Untagged
@@ -186,9 +187,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 535c59466e1804962a7dceb56e37b3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 1
   speedFactor: 0.2
   timer: 10
+--- !u!50 &7630742111939175948
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2712382813003865656}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4555317196221940109
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +349,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 535c59466e1804962a7dceb56e37b3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 1
   speedFactor: 0
   timer: 10

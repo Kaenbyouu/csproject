@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class BlackHoleGravityZones : MonoBehaviour
 {
-
-   [SerializeField]
-    private float mass = 1;
-
    [SerializeField]
    private float speedFactor = 0.2f;
    public float timer = 10f;
