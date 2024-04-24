@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class Itemcollection : MonoBehaviour
 {
+    float boost = 0;
     public void React(GameObject obj)
     {
-        float boost = obj.GetComponent<Properties>().boosterFactor;
-        Player player = GetComponent<Player>();
+        boost = obj.GetComponent<Properties>().boosterFactor;
+        GetComponent<Player>();
         GetComponent<Player>().Speed *= boost;
         StartCoroutine(timer(obj.GetComponent<Properties>().boosterTimer));
-        player.Speed /= boost;
+        //player.Speed /= boost;
         Destroy(obj);
     }
 
     IEnumerator timer(float t)
     {
         yield return new WaitForSeconds(t);
+        GetComponent<Player>().Speed /= boost;
     }
 
 }
