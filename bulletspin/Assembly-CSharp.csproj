@@ -60,27 +60,25 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Game/Astro/AstroSpawner_map1.cs" />
+    <Compile Include="Assets/Scripts/Game/GameCtrl.cs" />
+    <Compile Include="Assets/Scripts/Game/SpeedZoneScr.cs" />
     <Compile Include="Assets/Planet_COM.cs" />
-    <Compile Include="Assets/Scripts/Projectile.cs" />
-    <Compile Include="Assets/Scripts/Collectibles/Itemcollection.cs" />
-    <Compile Include="Assets/Scripts/Astro/PlanetSpawner.cs" />
-    <Compile Include="Assets/Scripts/Boundaries.cs" />
-    <Compile Include="Assets/Scripts/Astro/BlackHoleSpawner.cs" />
-    <Compile Include="Assets/Scripts/GameCtrl.cs" />
-    <Compile Include="Assets/Scripts/Bullet.cs" />
-    <Compile Include="Assets/Scripts/InvaderSpawner.cs" />
-    <Compile Include="Assets/Scripts/Player.cs" />
-    <Compile Include="Assets/Scripts/BulletSpawner.cs" />
-    <Compile Include="Assets/Scripts/Health.cs" />
-    <Compile Include="Assets/Scripts/PlayerCtrl.cs" />
-    <Compile Include="Assets/Scripts/SimpleAnimator.cs" />
-    <Compile Include="Assets/Scripts/Astro/FixingGravity.cs" />
-    <Compile Include="Assets/Scripts/SpeedZoneScr.cs" />
-    <Compile Include="Assets/Scripts/Collectibles/Stardust Spawner.cs" />
-    <Compile Include="Assets/Scripts/Enemy_Hexagon.cs" />
-    <Compile Include="Assets/Scripts/Astro/SetCOM_LocalPos.cs" />
-    <Compile Include="Assets/Scripts/Collectibles/Properties.cs" />
-    <Compile Include="Assets/Scripts/Astro/BlackHoleGravityZones.cs" />
+    <Compile Include="Assets/Scripts/Game/Collectibles/Stardust Spawner.cs" />
+    <Compile Include="Assets/Scripts/Game/Health.cs" />
+    <Compile Include="Assets/Scripts/Game/Boundaries.cs" />
+    <Compile Include="Assets/Scripts/Game/PlayerCtrl.cs" />
+    <Compile Include="Assets/Scripts/Game/Collectibles/Properties.cs" />
+    <Compile Include="Assets/Scripts/Game/Astro/SetCOM_LocalPos.cs" />
+    <Compile Include="Assets/Scripts/Game/Astro/BlackHoleGravityZones.cs" />
+    <Compile Include="Assets/Scripts/Game/Projectile.cs" />
+    <Compile Include="Assets/Scripts/Game/SimpleAnimator.cs" />
+    <Compile Include="Assets/Scripts/Game/Enemy_Hexagon.cs" />
+    <Compile Include="Assets/Scripts/Game/Astro/FixingGravity.cs" />
+    <Compile Include="Assets/Scripts/UI/SelectMap.cs" />
+    <Compile Include="Assets/MapSelector.cs" />
+    <Compile Include="Assets/Scripts/Game/Player.cs" />
+    <Compile Include="Assets/Scripts/Game/Collectibles/Itemcollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

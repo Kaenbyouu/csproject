@@ -1,0 +1,2038 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+/Users/evaernst/Desktop/CS-Proj./csproject/bulletspin
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51574
+Successfully changed project path to: /Users/evaernst/Desktop/CS-Proj./csproject/bulletspin
+/Users/evaernst/Desktop/CS-Proj./csproject/bulletspin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8030392320] Host "[IP] 10.16.174.170 [Port] 0 [Flags] 2 [Guid] 686373710 [EditorId] 686373710 [Version] 1048832 [Id] OSXEditor(0,evas-air-2.ictedubs.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8030392320] Host "[IP] 10.16.174.170 [Port] 0 [Flags] 2 [Guid] 686373710 [EditorId] 686373710 [Version] 1048832 [Id] OSXEditor(0,evas-air-2.ictedubs.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/evaernst/Desktop/CS-Proj./csproject/bulletspin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56387
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002980 seconds.
+- Loaded All Assemblies, in  0.236 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+2024-04-25 13:01:08.285 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 373 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (524ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (56ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:01:10.199 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 744ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (33.8 KB). Loaded Objects now: 4529.
+Memory consumption went from 155.7 MB to 155.7 MB.
+Total: 2.790000 ms (FindLiveObjects: 0.195917 ms CreateObjectMapping: 0.060417 ms MarkObjects: 2.375416 ms  DeleteObjects: 0.157959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a6fc7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.319 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:01:22.161 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.734 seconds
+Domain Reload Profiling: 1053ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (734ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4534.
+Memory consumption went from 159.4 MB to 159.4 MB.
+Total: 2.715292 ms (FindLiveObjects: 0.159916 ms CreateObjectMapping: 0.074250 ms MarkObjects: 2.412209 ms  DeleteObjects: 0.068667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2e87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.359 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:01:45.519 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1122ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4538.
+Memory consumption went from 166.9 MB to 166.8 MB.
+Total: 2.578416 ms (FindLiveObjects: 0.151125 ms CreateObjectMapping: 0.064209 ms MarkObjects: 2.314792 ms  DeleteObjects: 0.047792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1735251.666257 seconds.
+  path: Assets/Sprites/A0D8CC88-87D4-4EA0-ABA0-BA444AC98A84 2.JPG
+  artifactKey: Guid(928c96789797c44ad953b94f20bb01cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/A0D8CC88-87D4-4EA0-ABA0-BA444AC98A84 2.JPG using Guid(928c96789797c44ad953b94f20bb01cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b37454dad68ed6291018c0a9079e1d') in 0.087534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.235878 seconds.
+  path: Assets/Sprites/MilkyWay-ShotByEva.JPG
+  artifactKey: Guid(928c96789797c44ad953b94f20bb01cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MilkyWay-ShotByEva.JPG using Guid(928c96789797c44ad953b94f20bb01cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065d709d8ddb7f7e759e461e0c89b294') in 0.007683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2e8b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.333 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:04:54.686 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.746 seconds
+Domain Reload Profiling: 1080ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (746ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4547.
+Memory consumption went from 174.6 MB to 174.6 MB.
+Total: 2.622000 ms (FindLiveObjects: 0.142583 ms CreateObjectMapping: 0.066583 ms MarkObjects: 2.354750 ms  DeleteObjects: 0.057750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2e87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.349 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:06:35.247 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1056ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4551.
+Memory consumption went from 182.3 MB to 182.3 MB.
+Total: 2.657834 ms (FindLiveObjects: 0.141167 ms CreateObjectMapping: 0.068292 ms MarkObjects: 2.388750 ms  DeleteObjects: 0.059125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2e87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.324 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:07:10.359 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1020ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (697ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4555.
+Memory consumption went from 189.8 MB to 189.7 MB.
+Total: 2.561500 ms (FindLiveObjects: 0.149708 ms CreateObjectMapping: 0.067625 ms MarkObjects: 2.285167 ms  DeleteObjects: 0.058542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 574.087418 seconds.
+  path: Assets/Scripts/Game/Astro/BlackHoleSpawner.cs
+  artifactKey: Guid(4cf118b21c3bb478ebd1d5f419be1f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/BlackHoleSpawner.cs using Guid(4cf118b21c3bb478ebd1d5f419be1f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aef4157e48a22f0b8e74910ceb74c2') in 0.008812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.690445 seconds.
+  path: Assets/Scripts/Game/Astro/PlanetSpawner.cs
+  artifactKey: Guid(52e535fc4201c420ea3d003fcbac0ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/PlanetSpawner.cs using Guid(52e535fc4201c420ea3d003fcbac0ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec2cfb91df3e6189da050f520bb8777') in 0.000617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.396331 seconds.
+  path: Assets/Scripts/Game/Astro/AstroSpawner.cs
+  artifactKey: Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/AstroSpawner.cs using Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88afbabd4bfb0ea4828969344384cf9') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2e87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:13:51.981 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1200ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4560.
+Memory consumption went from 197.1 MB to 197.1 MB.
+Total: 2.629292 ms (FindLiveObjects: 0.147042 ms CreateObjectMapping: 0.077791 ms MarkObjects: 2.349834 ms  DeleteObjects: 0.054209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.765947 seconds.
+  path: Assets/Scripts/Game/Astro/AstroSpawner.cs
+  artifactKey: Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/AstroSpawner.cs using Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3d73ad81a77d327282bc3f2b597cec') in 0.001028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.558688 seconds.
+  path: Assets/Scripts/Game/Astro/AstroSpawner.cs
+  artifactKey: Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/AstroSpawner.cs using Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59081b3cd85a02d123c1de71074202f6') in 0.000290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.169200 seconds.
+  path: Assets/Scripts/Game/Astro/AstroSpawner.cs
+  artifactKey: Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/AstroSpawner.cs using Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2a5e8c536a0e4db6b2fc6a487baafd') in 0.001314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.387306 seconds.
+  path: Assets/Scripts/Game/Collectibles/Stardust Spawner.cs
+  artifactKey: Guid(b5c53653f9e5344f8b5c742023c48fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Collectibles/Stardust Spawner.cs using Guid(b5c53653f9e5344f8b5c742023c48fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fc3f419f64843c43b5cc6ccb742b84') in 0.001795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.947574 seconds.
+  path: Assets/Scripts/Game/Collectibles/Stardust Spawner.cs
+  artifactKey: Guid(b5c53653f9e5344f8b5c742023c48fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Collectibles/Stardust Spawner.cs using Guid(b5c53653f9e5344f8b5c742023c48fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969e6829cf773c4fa05f6d1303460a6b') in 0.002339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.215759 seconds.
+  path: Assets/Scripts/Game/Collectibles/Stardust Spawner.cs
+  artifactKey: Guid(b5c53653f9e5344f8b5c742023c48fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Collectibles/Stardust Spawner.cs using Guid(b5c53653f9e5344f8b5c742023c48fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1b8e02a2a4809c8525912f0f1211da') in 0.006092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2e87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.376 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:24:06.575 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1139ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (257ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.4 KB). Loaded Objects now: 4564.
+Memory consumption went from 204.6 MB to 204.6 MB.
+Total: 2.571541 ms (FindLiveObjects: 0.134709 ms CreateObjectMapping: 0.065333 ms MarkObjects: 2.311417 ms  DeleteObjects: 0.059500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2ec7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.354 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:25:25.861 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4050 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4568.
+Memory consumption went from 212.3 MB to 212.3 MB.
+Total: 2.637042 ms (FindLiveObjects: 0.137500 ms CreateObjectMapping: 0.066458 ms MarkObjects: 2.373917 ms  DeleteObjects: 0.058708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 645.767368 seconds.
+  path: Assets/Scripts/Game/Astro/FixingGravity.cs
+  artifactKey: Guid(d9d2040443f9b4b55ae4ccaeca286f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/FixingGravity.cs using Guid(d9d2040443f9b4b55ae4ccaeca286f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e55e9b941372147935262078885323') in 0.004470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.378245 seconds.
+  path: Assets/Scripts/Game/Astro/SetCOM_LocalPos.cs
+  artifactKey: Guid(d5d4e1630d5da42068649ec1e63aec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/SetCOM_LocalPos.cs using Guid(d5d4e1630d5da42068649ec1e63aec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fc3fae5362103b47437dfbe363994b') in 0.000519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2e87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:27:23.480 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.786 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (786ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.8 KB). Loaded Objects now: 4571.
+Memory consumption went from 219.6 MB to 219.6 MB.
+Total: 2.616625 ms (FindLiveObjects: 0.138417 ms CreateObjectMapping: 0.065458 ms MarkObjects: 2.350333 ms  DeleteObjects: 0.062000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2ec7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.322 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:27:50.102 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 1045ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.9 KB). Loaded Objects now: 4574.
+Memory consumption went from 227.3 MB to 227.2 MB.
+Total: 2.655917 ms (FindLiveObjects: 0.137458 ms CreateObjectMapping: 0.064709 ms MarkObjects: 2.396000 ms  DeleteObjects: 0.057375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53.108796 seconds.
+  path: Assets/Scripts/Game/Astro/AstroSpawner.cs
+  artifactKey: Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/AstroSpawner.cs using Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198ee4fdc8c4c263ace1cf0dd35d2848') in 0.000983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.232408 seconds.
+  path: Assets/Scripts/Game/Astro/AstroSpawner_map1.cs
+  artifactKey: Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/AstroSpawner_map1.cs using Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f79b531eff122f274497c59465e663') in 0.000470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a2ec7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.331 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:28:22.841 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.734 seconds
+Domain Reload Profiling: 1065ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (734ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.4 KB). Loaded Objects now: 4578.
+Memory consumption went from 234.6 MB to 234.6 MB.
+Total: 2.684125 ms (FindLiveObjects: 0.140625 ms CreateObjectMapping: 0.078834 ms MarkObjects: 2.405083 ms  DeleteObjects: 0.059000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.501165 seconds.
+  path: Assets/Scripts/Game/Astro/AstroSpawner_map1.cs
+  artifactKey: Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Astro/AstroSpawner_map1.cs using Guid(11cc1a8b428484bb295f6adf1fff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300ca521f99780f3911387a8d318eb7a') in 0.000912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.192510 seconds.
+  path: Assets/Scenes/SampleScene copy.unity
+  artifactKey: Guid(db32a0f7344024f4fa16f6a48b59449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene copy.unity using Guid(db32a0f7344024f4fa16f6a48b59449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960e23fd425b981669793b126aef563a') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a0773000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.350 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:29:36.752 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.5 KB). Loaded Objects now: 4582.
+Memory consumption went from 242.1 MB to 242.1 MB.
+Total: 2.595875 ms (FindLiveObjects: 0.141167 ms CreateObjectMapping: 0.064833 ms MarkObjects: 2.332125 ms  DeleteObjects: 0.057291 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.794499 seconds.
+  path: Assets/Scripts/UI/SelectMap.cs
+  artifactKey: Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/SelectMap.cs using Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83e23ddde3f042db104cda4a73ae7c4') in 0.001089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.243165 seconds.
+  path: Assets/Scripts/UI/SelectMap.cs
+  artifactKey: Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/SelectMap.cs using Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd877e96e5d49108d4f3de1d087dd249a') in 0.000405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a0773000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:30:33.178 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.752 seconds
+Domain Reload Profiling: 1099ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.4 KB). Loaded Objects now: 4586.
+Memory consumption went from 249.7 MB to 249.7 MB.
+Total: 2.641625 ms (FindLiveObjects: 0.156417 ms CreateObjectMapping: 0.081083 ms MarkObjects: 2.347125 ms  DeleteObjects: 0.056583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a0773000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.304 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:30:59.350 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1015ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (711ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.4 KB). Loaded Objects now: 4590.
+Memory consumption went from 257.4 MB to 257.4 MB.
+Total: 2.547792 ms (FindLiveObjects: 0.133667 ms CreateObjectMapping: 0.064042 ms MarkObjects: 2.291375 ms  DeleteObjects: 0.058292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.436998 seconds.
+  path: Assets/Scripts/UI/SelectMap.cs
+  artifactKey: Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/SelectMap.cs using Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5937f38e67e5f1d2900dc06a1ccf1ded') in 0.001015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a0773000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.359 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:31:24.603 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.5 KB). Loaded Objects now: 4594.
+Memory consumption went from 264.7 MB to 264.7 MB.
+Total: 2.597500 ms (FindLiveObjects: 0.138708 ms CreateObjectMapping: 0.065584 ms MarkObjects: 2.331667 ms  DeleteObjects: 0.060833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.240639 seconds.
+  path: Assets/Scripts/UI/SelectMap.cs
+  artifactKey: Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/SelectMap.cs using Guid(cfa9668c23ade4c4487f496b940d8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e259b825116787ec101a1ded1d00ea') in 0.001712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x2a0773000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.360 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+2024-04-25 13:32:06.675 Unity[61387:17430871] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Assets/Sprites/NewAssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1110ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (751ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.4 KB). Loaded Objects now: 4598.
+Memory consumption went from 272.3 MB to 272.2 MB.
+Total: 2.608167 ms (FindLiveObjects: 0.141792 ms CreateObjectMapping: 0.066958 ms MarkObjects: 2.347250 ms  DeleteObjects: 0.051666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SpeedZoneScr.cs: 396511be384e5a256ea79c8689173e00 -> fc8aa459f97d6eb7e4c0f0fd230962bb
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BlackHoleGravityZones.cs: 758c9183a3b475660c8990710426156b -> 4fcf38291ecafd9421ef1f99bad2c9cb
+  custom:scripting/monoscript/fileName/BulletSpawner.cs: 85e104cb0c3441f26129548d8b1f8a31 -> 
+  custom:scripting/monoscript/fileName/Item collection.cs: b533e591d3cb7c47059350a11dc664e8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Properties.cs: 19d97a88e4bf6d1adf2e7d98f30ac3b1 -> ae523412264c80c6468c9bbebdabb669
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/SetCOM_LocalPos.cs: 9584a2b7b1aa12f8ad0bd228a445d6bc -> d01b918bae00f6bd44ab184113b7ee10
+  custom:scripting/monoscript/fileName/Enemy_Hexagon.cs: 9f1cad83e283028d06ce033f1fb1af64 -> 34cf6e5572763b77beb24cb5f2ebf77b
+  custom:scripting/monoscript/fileName/FixingGravity.cs: 50ed85e939853a8fea65e36b5b61b987 -> 03424ad3ff7ecb48d50cac267c559371
+  custom:scripting/monoscript/fileName/PlayerCtrl.cs: 0bd69b1ceb27aef55acb4e7e0cd2ec27 -> 775a10e17740138dd8efc754a44d52eb
+  custom:scripting/monoscript/fileName/SetCOM-LocalPos.cs: d01b918bae00f6bd44ab184113b7ee10 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PlanetSpawner.cs: 511a8ea15029c2fa7d1ea95e1de4e5ea -> c012ec2b9474cb3e3763e17db8e8ae1d
+  custom:scripting/monoscript/fileName/BlackHoleSpawner.cs: 7a0bebe873878ffd16fb5fa2540f9d0f -> 09d924f56a73c44eec56a3ac7580b4ca
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/GameCtrl.cs: a553d406f270801c4e9aee49acf60ed0 -> 47fe14fc09d2f689553d18328531eade
+  custom:scripting/monoscript/fileName/Grav.cs: 935c9ab88087810a1c68330bdc1f781d -> 
+  custom:scripting/monoscript/fileName/SimpleAnimator.cs: 6c25bfff4988e4b924e5dd570f66d29c -> 5c2491b4fa49c0d68f9d55b963e3bac6
+  custom:scripting/monoscript/fileName/Itemcollection.cs: 94fc792615ce694d511f582115d176a4 -> 0c08749d2c2d840efd9bcfca1ca1ab61
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvaderSpawner.cs: 9318c67c9ce55b20c109153769d77572 -> 
+  custom:scripting/monoscript/fileName/Idem collection.cs: 7a90a7c38f50cbe9f8c0ccb27a12c517 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 6e3ad678fa09b922f561ca7e25de72ae -> 
+  custom:scripting/monoscript/fileName/NewGravity.cs: d2e9d0886db48c2c7fe279ced8649317 -> 
+  custom:scripting/monoscript/fileName/Boundaries.cs: 59dcc2e9f54d93d04841edc2648c2fca -> 1e4adedfdbb336e007da1bcab671e0c7
+  custom:scripting/monoscript/fileName/Player.cs: 5bb3fdd25abedb90511c7231fb5a2164 -> 007e2e63cbf915a2b71612a7f593548a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Stardust Spawner.cs: cf296e07fbe85a50b42022e0b0e8938b -> 6f39bdfce005b8df50ace99af456a22a
+  custom:scripting/monoscript/fileName/test.cs: 83c53680108a55573a92b4a76f905bdb -> 
