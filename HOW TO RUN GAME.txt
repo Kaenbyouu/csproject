@@ -1,0 +1,6 @@
+Go to bulletspin/Build folder and run bulletspin.exe
+
+How to play: 
+WASD to move
+Arrow keys to shoot
+Esc for menu

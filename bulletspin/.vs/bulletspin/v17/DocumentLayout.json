@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\enemy\\enemysquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemysquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|c:\\users\\eecca\\desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\enemy\\enemy_hexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_hexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\enemy\\enemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\player\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|c:\\users\\eecca\\desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\collectibles\\itemcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles\\itemcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\enemy\\enemybulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|c:\\users\\eecca\\desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\player\\boundaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\boundaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\collectibles\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\collectibles\\stardust spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles\\stardust spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\assets\\scripts\\player\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE8F064-484F-89AE-720B-5295D8EAB788}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy_Hexagon.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\Enemy_Hexagon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Hexagon.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\Enemy_Hexagon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Hexagon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:03:51.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Boundaries.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Boundaries.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Boundaries.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Boundaries.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Boundaries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:15.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Stardust Spawner.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Collectibles\\Stardust Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\Stardust Spawner.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Collectibles\\Stardust Spawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectibles\\Stardust Spawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-25T08:09:09.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Properties.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Collectibles\\Properties.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\Properties.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Collectibles\\Properties.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectibles\\Properties.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-25T08:09:09.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Itemcollection.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Collectibles\\Itemcollection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\Itemcollection.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Collectibles\\Itemcollection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectibles\\Itemcollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:09.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyShooting.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemyShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyShooting.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemyShooting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyShooting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:09.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:09.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Projectile.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Projectile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-25T08:09:09.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAA9wCUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:09.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyBulletScript.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemyBulletScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyBulletScript.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemyBulletScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyBulletScript.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:09.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemySquare.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemySquare.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemySquare.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Enemy\\EnemySquare.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemySquare.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:09.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Health.cs",
+              "ToolTip": "C:\\Users\\eecca\\Desktop\\githubgame\\csproject\\bulletspin\\Assets\\Scripts\\Player\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Health.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:09:09.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
